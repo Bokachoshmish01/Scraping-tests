@@ -8,7 +8,7 @@ a=0
 joblist=[]
 for p in range(1,10):
 
-    url=f"https://jobs.bdjobs.com/jobsearch.asp?txtsearch=&fcat=6&qOT=0&iCat=0&Country=0&qPosted=0&qDeadline=0&Newspaper=0&qJobNature=0&qJobLevel=0&qExp=0&qAge=0&hidOrder=%27%27&pg={p}&rpp=50&hidJobSearch=JobSearch&MPostings=&ver=&strFlid_fvalue=&strFilterName=&hClickLog=1&hPopUpVal=1"
+    url=f"Link....{p}"
 
     chrome_options=Options()
     driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)
